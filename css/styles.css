@@ -1,0 +1,151 @@
+body{
+  background-color: rgb(250,215,216);
+}
+
+main{
+  background-color: rgb(250,215,216);
+}
+h1, h2, h3 {
+  font-family: 'Roboto', serif;
+}
+
+h1{
+  font-size: 4.5em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 2.2em;
+  margin: 20px;
+  text-align: center;
+  color: rgb(255,52,129);
+}
+
+.imgcenter2{
+  display: flex;
+  //justify-content: center;
+  text-align: center;
+}
+
+.imgcenter3{
+  display: block;
+  margin: auto;
+  //width: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.imgcenter{
+  display: block;
+  margin: auto;
+  //width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.imggo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.imgkim{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.imgportrait{
+  display:block;
+  margin:auto;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p, li, figcaption, h5{
+  font-family: 'Roboto-Medium', serif;
+}
+
+h3{
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 26px;
+}
+
+p{
+  margin: 20px;
+  text-align: left;
+}
+
+figure{
+  margin: 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+figcaption{
+  text-align: left;
+}
+
+ul{
+  font-family: 'Roboto-Medium', serif;
+  font-size: 1.3em;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+}
+  /*//////////////////// NAV STYLES ///////////////////////*/
+nav li{
+  display: inline; /* change li from block level element to inline */
+  font-family: 'Roboto-Medium', serif;
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+nav ul{
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    color: black;
+	  background-color: rgb(255,195,202);
+	  border-radius: 40px; /*round the corners on the nav items*/
+	  text-decoration: none; /*remove default underlines from links*/
+	  padding: 10px 10px;
+	  margin: 0;
+	  font-size: 0.9em;
+    border: 2px solid black;
+
+}
+nav a:hover {
+	background-color: rgb(255,52,129);
+  color: white;
+}
+/*/////////////////////// CLASSES //////////////////////////*/
+.rule-top {
+  border-top: 1px solid rgb(255,215,215);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.rule-sides {
+  padding: 0 20px;
+  border-right: 1px solid rgb(227, 226, 225);
+  border-left: 1px solid rgb(227, 226, 225);
+}
