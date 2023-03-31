@@ -29,7 +29,7 @@ h2{
 }
 
 .imgcenter3{
-  display: block;
+  display: flex;
   margin: auto;
   //width: 40%;
   margin-top: 20px;
